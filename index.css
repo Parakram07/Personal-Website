@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+.logo{
+    font-size:30px;
+   color:#fff;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 20px 1.5%;
+   margin-top: 25px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: -25px;
+}
+ul li{
+    display: inline-block;
+    font-size: 22px;
+    margin-top: -10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5% 18px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.son{
+    width: 450px;
+    height: 410px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+}
+.son-img{
+    border-radius: 50%;
+    width: 220px;
+    height: 260px;
+}
+.son h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.son h5{
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.son p{
+   text-align: center; 
+   font-size: 25px;
+}
+
+.facebook{
+    margin: 7px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    float: center;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    padding: 0;
+    float: center;
+}
+.gmail{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    padding: 0;
+    float: center;
+}
